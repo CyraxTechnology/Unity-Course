@@ -1,0 +1,14 @@
+	if (Input.GetKey(KeyCode.UpArrow)) {
+		print (" Up Arrow Pressed");
+		min = guess;
+		guess = (min+max)/2;
+		print (guess);
+	} else if (Input.GetKey(KeyCode.DownArrow)) {
+		print (" Down Arrow Pressed");
+		max = guess;
+		guess = (min + max)/2;
+		print (guess);	
+	} else if (Input.GetKey(KeyCode.Return)) {
+		print (" I won !!!");
+			
+	}	
